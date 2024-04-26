@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Object oriented programming example." />
+    <meta name="keywords" content="HTML, CSS, Tailwind CSS, Vite" />
+    <title>Animal Creater - Object-Oriented Programming</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <section
+      class="container h-screen flex flex-col place-items-center mx-auto p-5 space-y-5"
+    >
+      <p
+        id="p-console"
+        class="w-2/3 h-full text-center overflow-y-scroll bg-sky-200"
+      ></p>
+      <div class="w-full flex justify-evenly">
+        <button
+          id="button-wolf-creater"
+          class="w-52 h-10 bg-sky-500 text-white rounded p-2 text-center"
+        >
+          Create Random Wolf
+        </button>
+        <button
+          id="button-bear-creater"
+          class="w-52 h-10 bg-sky-500 text-white rounded p-2 text-center"
+        >
+          Create Random Bear
+        </button>
+      </div>
+      <button
+        id="button-show-animals"
+        class="w-52 h-10 bg-green-500 text-white rounded p-2 text-center"
+      >
+        Show Animals
+      </button>
+    </section>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
